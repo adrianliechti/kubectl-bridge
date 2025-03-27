@@ -1,0 +1,35 @@
+.odc-form-section__heading {
+  margin: 0;
+}
+
+.odc-form-section--extra-margin {
+  margin: var(--pf-v5-global--spacer--md) 0;
+}
+
+
+.odc-imagestream-separator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.odc-imagestream-alert {
+  margin-top: 1em;
+}
+
+.odc-imagestream-clipboard {
+  margin-top: var(--pf-v5-global--spacer--md);
+}
+
+
+.odc-git-type-selector {
+  --pf-v5-c-tile--TranslateY: 0 !important;
+  --pf-v5-c-tile--PaddingBottom: var(--pf-v5-global--spacer--sm);
+  --pf-v5-c-tile--PaddingTop: var(--pf-v5-global--spacer--sm);
+  --pf-v5-c-tile--PaddingRight: var(--pf-v5-global--spacer--md);
+  --pf-v5-c-tile--PaddingLeft: var(--pf-v5-global--spacer--md);
+}
+
+
+
+/*# sourceMappingURL=buildConfig.ccd5c054553f09e93dc8.css.map*/

@@ -1,0 +1,30 @@
+.maintenance-popover-pod-list__list-item a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.bmh-status-action {
+  padding: var(--pf-v5-global--spacer--sm) 0;
+}
+
+
+.bmh-health__status {
+  height: 100%;
+  align-items: center;
+}
+
+.bmh-health__status .co-icon-and-text__icon {
+  margin-right: var(--pf-v5-global--spacer--md);
+  top: 0;
+  font-size: 1.2rem;
+}
+
+.bmh-health__status-item {
+  display: flex;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.metal3-baremetalhost.bee0e4bee3a0d4031661.css.map*/

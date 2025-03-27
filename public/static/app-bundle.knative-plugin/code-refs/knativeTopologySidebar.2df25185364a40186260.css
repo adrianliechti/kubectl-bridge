@@ -1,0 +1,69 @@
+.kn-event-pubsub-expand-button__link {
+  color: var(--pf-v5-global--link--Color);
+}
+
+.kn-event-pubsub-expand-button__icon {
+  vertical-align: bottom;
+  margin-left: var(--pf-v5-global--spacer--xs);
+}
+
+
+.kn-filter-table .kn-filter-table__row--bordered {
+  border: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--palette--black-150);
+}
+
+.kn-filter-table .kn-filter-table__padding--left {
+  padding-left: var(--pf-v5-global--spacer--3xl);
+}
+
+
+.kn-event-subscriber-list-item {
+  padding-bottom: 0;
+}
+
+.kn-event-subscriber-list__relationship {
+  align-items: center;
+  min-height: var(--pf-v5-global--spacer--xl);
+  margin: 0 var(--pf-v5-global--BorderWidth--md) var(--pf-v5-global--BorderWidth--lg) var(--pf-v5-global--spacer--2xl);
+}
+
+.kn-event-subscriber-list__relationship-table {
+  position: relative;
+  left: calc(var(--pf-v5-global--spacer--md)*-1);
+  width: calc(100% + var(--pf-v5-global--spacer--xl));
+}
+
+.kn-event-subscriber-list__relationship-table:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+.ocs-sidebar-tabsection {
+  padding: 0 20px;
+}
+
+.ocs-sidebar-index {
+  z-index: 0;
+}
+
+
+.odc-revision-deployment-list {
+  padding: var(--pf-v5-global--spacer--md) var(--pf-v5-global--spacer--lg) var(--pf-v5-global--spacer--sm);
+}
+
+.odc-revision-deployment-list__pod {
+  width: var(--pf-v5-global--icon--FontSize--lg);
+  cursor: default;
+}
+
+
+.revision-overview-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/*# sourceMappingURL=knativeTopologySidebar.2df25185364a40186260.css.map*/

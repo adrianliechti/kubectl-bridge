@@ -1,0 +1,34 @@
+.gop-gitops-empty-state__icon {
+  height: var(--pf-v5-c-empty-state__icon--FontSize);
+  max-width: 100%;
+}
+
+
+.gop-gitops-syncStatus {
+  max-width: "100px";
+}
+
+.gop-gitops-lastDeploymentTime {
+  color: var(--pf-v5-global--Color--200);
+}
+
+.gop-gitops-tooltip-text {
+  color: #fff;
+}
+
+
+.gop-gitops-list {
+  padding: var(--pf-v5-global--spacer--lg);
+  flex: 1;
+  border-top: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--BorderColor--100);
+}
+
+
+.gop-gitops-list-page-heading {
+  align-items: center;
+  font-size: 12px;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.gitops-plugin-list-page.b5f22e80006e00562a86.css.map*/

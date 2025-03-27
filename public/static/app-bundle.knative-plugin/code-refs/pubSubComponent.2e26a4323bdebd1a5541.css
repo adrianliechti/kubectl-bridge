@@ -1,0 +1,16 @@
+.kn-filter-table .kn-filter-table__row--bordered {
+  border: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--palette--black-150);
+}
+
+.kn-filter-table .kn-filter-table__padding--left {
+  padding-left: var(--pf-v5-global--spacer--3xl);
+}
+
+
+.kn-resource-link-list--addSpaceBelow {
+  margin-bottom: var(--pf-v5-global--spacer--lg);
+}
+
+
+
+/*# sourceMappingURL=pubSubComponent.2e26a4323bdebd1a5541.css.map*/

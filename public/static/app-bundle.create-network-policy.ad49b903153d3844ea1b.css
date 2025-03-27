@@ -1,0 +1,49 @@
+.co-create-networkpolicy__alert {
+  margin-bottom: 0;
+}
+
+.co-create-networkpolicy__expandable-xl>.pf-v5-c-form__field-group-header .pf-v5-c-form__field-group-header-title-text {
+  font-family: var(--pf-v5-global--FontFamily--heading);
+  font-size: var(--pf-v5-global--FontSize--xl);
+  font-weight: var(--pf-v5-global--FontWeight--normal);
+  line-height: var(--pf-v5-global--LineHeight--md);
+}
+
+.co-create-networkpolicy__expandable-xl>.pf-v5-c-form__field-group-toggle {
+  --pf-v5-c-form__field-group-toggle-button--MarginTop: 0.3rem;
+}
+
+.co-create-networkpolicy__rule-header {
+  display: flex;
+}
+
+.co-create-networkpolicy__rule-header label {
+  margin-top: .6rem;
+}
+
+.co-create-networkpolicy__rule-header-right {
+  margin-left: auto;
+}
+
+.co-create-networkpolicy__rule-header .pf-m-secondary {
+  color: var(--pf-v5-global--primary-color--100);
+  padding-left: var(--pf-v5-global--spacer--md);
+  padding-right: var(--pf-v5-global--spacer--md);
+}
+
+.co-create-networkpolicy__rule-header .pf-m-secondary .pf-c-dropdown__toggle-icon {
+  margin-right: 0;
+}
+
+.co-create-networkpolicy__selector-preview button.pf-v5-c-tree-view__node[role=treeitem],
+.co-create-networkpolicy__selector-preview button.pf-v5-c-tree-view__node[role=treeitem]>.pf-v5-c-tree-view__node-container {
+  cursor: default;
+}
+
+.co-create-networkpolicy__paragraph {
+  margin-bottom: var(--pf-v5-c-content--MarginBottom);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.create-network-policy.ad49b903153d3844ea1b.css.map*/

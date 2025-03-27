@@ -1,0 +1,41 @@
+.cs-imagevulnerability-details {
+  display: flex;
+}
+
+.cs-imagevulnerability-details__donut {
+  padding: var(--pf-v5-global--spacer--xl);
+  width: 20%;
+}
+
+.cs-imagevulnerability-details__summary {
+  margin-top: var(--pf-v5-global--spacer--md);
+  width: 80%;
+}
+
+.cs-imagevulnerability-details__summary--h4 {
+  margin-top: var(--pf-v5-global--spacer--md);
+}
+
+.cs-imagevulnerability-details__summary-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-imagevulnerability-details__summary-list--title {
+  margin: var(--pf-v5-global--spacer--xs);
+}
+
+.cs-imagevulnerability-details__empty-text {
+  align-items: center;
+  display: flex;
+  padding: var(--pf-v5-global--spacer--4xl) 0;
+}
+
+
+.cs-imagevulnerabilitieslist__wrapper {
+  border-top: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--BorderColor--100);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.container-security.c0e64fdd092095ee35b7.css.map*/

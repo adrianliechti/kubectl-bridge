@@ -1,0 +1,14 @@
+.key-value--remove-button {
+  display: flex;
+  flex-flow: row-reverse;
+  margin-bottom: 0 !important;
+}
+
+.key-value--wrapper+.key-value--wrapper {
+  border-top: 1px solid var(--pf-v5-global--BorderColor--100);
+  padding-top: var(--pf-v5-global--spacer--sm);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.edit-configmap-page.1a5e16f8d4f813c2f6f5.css.map*/

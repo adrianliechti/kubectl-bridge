@@ -1,0 +1,46 @@
+.odc-namespaced-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+}
+
+.odc-namespaced-page__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--pf-v5-global--BackgroundColor--200);
+  position: relative;
+  overflow: auto;
+}
+
+.odc-namespaced-page__content.is-light {
+  background-color: var(--pf-v5-global--BackgroundColor--100);
+}
+
+.odc-namespaced-page__toolbar {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.odc-namespaced-page .co-namespace-selector {
+  max-width: 100%;
+}
+
+.odc-namespaced-page .co-namespace-bar__items {
+  flex-wrap: wrap;
+}
+
+
+.odc-project-access-form__body {
+  padding-bottom: 0px;
+}
+
+.odc-project-access-form__subject-kind-dropdown {
+  margin-bottom: var(--pf-v5-global--spacer--sm);
+}
+
+
+
+/*# sourceMappingURL=projectAccess.a5ece6597ede7b9d910e.css.map*/

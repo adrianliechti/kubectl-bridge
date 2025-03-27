@@ -1,0 +1,88 @@
+.lso-node-selection-table__table--scroll {
+  margin-bottom: var(--pf-v5-global--spacer--md);
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-color: var(--pf-v5-global--BackgroundColor--light-300) var(--pf-v5-global--palette--white);
+}
+
+.lso-node-selection-table__table--scroll .pf-v5-c-table {
+  border: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--BorderColor--100);
+}
+
+.lso-node-selection-table__table--scroll .pf-v5-c-table .pf-v5-c-table__check {
+  width: 4.6% !important;
+}
+
+@media screen and (max-width: 1620px) {
+  .lso-node-selection-table__table--scroll .pf-v5-c-table .pf-v5-c-table__check {
+    width: 7% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .lso-node-selection-table__table--scroll .pf-v5-c-table .pf-v5-c-table__check {
+    width: 10% !important;
+  }
+}
+
+
+.lso-create-lvs__all-nodes-radio--padding {
+  padding-bottom: var(--pf-v5-global--spacer--sm);
+}
+
+.lso-create-lvs__filter-volumes-text--margin {
+  margin: 0;
+}
+
+.lso-create-lvs__max-disk-limit-help-text--margin {
+  margin-top: 0;
+}
+
+.lso-create-lvs__node-selection-table--margin {
+  margin-top: 0;
+}
+
+.lso-create-lvs__disk-mode-dropdown--margin {
+  margin-bottom: var(--pf-v5-global--spacer--md);
+}
+
+.lso-create-lvs__device-type-dropdown--margin {
+  margin-bottom: var(--pf-v5-global--spacer--md);
+}
+
+.lso-create-lvs__disk-size-form-group--margin {
+  margin: var(--pf-v5-global--spacer--lg) 0;
+}
+
+.lso-create-lvs__disk-size-form-group-div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 22em;
+}
+
+.lso-create-lvs__disk-size-form-group-max-min-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.lso-create-lvs__disk-input {
+  max-width: 100px;
+}
+
+.lso-create-lvs__select-nodes .co-m-nav-title {
+  padding: 0;
+  margin: 0;
+}
+
+.lso-disk-type__alert.pf-v5-c-alert {
+  --pf-v5-c-alert--BoxShadow: 0;
+}
+
+:where(.pf-v5-theme-dark) .lso-disk-type__alert {
+  background-color: var(--pf-v5-c-alert--m-inline--m-plain--BackgroundColor);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.lso-create-local-volume-set.fe68d64ddda0329d274c.css.map*/

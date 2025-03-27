@@ -1,0 +1,38 @@
+.odc-form-section__heading {
+  margin: 0;
+}
+
+.odc-form-section--extra-margin {
+  margin: var(--pf-v5-global--spacer--md) 0;
+}
+
+
+.odc-imagestream-separator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.odc-imagestream-alert {
+  margin-top: 1em;
+}
+
+.odc-imagestream-clipboard {
+  margin-top: var(--pf-v5-global--spacer--md);
+}
+
+
+.odc-deployment-lifecycle-hook-form {
+  border: 1px dashed var(--pf-v5-global--BorderColor--100);
+  padding: var(--pf-v5-global--spacer--md);
+}
+
+
+.odc-lifecycle-hook-field__title {
+  margin: 0;
+  font-weight: var(--pf-v5-global--FontWeight--bold);
+}
+
+
+
+/*# sourceMappingURL=deployment.c6670a92bb6201b3478b.css.map*/

@@ -1,0 +1,39 @@
+.odc-devfile-strategy-section__error-alert {
+  margin: 3.2em 0;
+}
+
+
+.odc-import-strategy-selector__tile {
+  width: 100%;
+}
+
+.odc-import-strategy-selector__recommended {
+  position: absolute;
+  color: var(--pf-v5-global--primary-color--100);
+  font-size: var(--pf-v5-global--FontSize--md);
+  top: 3px;
+  right: 6px;
+}
+
+
+.odc-serverless-function-strategy-section__error-alert {
+  margin: var(--pf-v5-global--spacer--2xl) 0 0;
+}
+
+
+.odc-import-strategy-section__edit-strategy-button {
+  width: fit-content;
+  padding-right: 0px;
+}
+
+.odc-import-strategy-section__strategy-selector {
+  margin-top: -3.2rem;
+}
+
+.odc-progressive-list-section {
+  margin-bottom: var(--pf-v5-global--spacer--md);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.git-import-form.9518969b379d22325b81.css.map*/

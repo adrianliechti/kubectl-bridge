@@ -1,0 +1,94 @@
+.odc-logs {
+  padding: var(--pf-v5-global--spacer--sm) var(--pf-v5-global--spacer--md);
+}
+
+.odc-logs__name {
+  font-weight: var(--pf-v5-global--FontWeight--bold);
+  text-transform: uppercase;
+}
+
+.odc-logs__content {
+  padding-left: var(--pf-v5-global--spacer--md);
+  white-space: pre;
+}
+
+
+.odc-multi-stream-logs {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+.odc-multi-stream-logs--fullscreen {
+  background-color: var(--pf-v5-global--BackgroundColor--100);
+  padding: var(--pf-v5-global--spacer--sm);
+}
+
+.odc-multi-stream-logs__icon {
+  margin-right: var(--pf-v5-global--spacer--xs);
+}
+
+.odc-multi-stream-logs__divider {
+  color: var(--pf-v5-global--palette--black-600);
+  margin: 0 var(--pf-v5-global--spacer--sm);
+}
+
+.odc-multi-stream-logs__button {
+  margin-right: 0;
+}
+
+.odc-multi-stream-logs__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--pf-v5-global--palette--black-1000);
+  color: var(--pf-v5-global--Color--light-100);
+  font-family: Menlo,Monaco,"Courier New",monospace;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.odc-multi-stream-logs__container__logs {
+  position: absolute;
+  width: 100%;
+}
+
+.odc-multi-stream-logs__taskName {
+  background-color: var(--pf-v5-global--BackgroundColor--dark-300);
+  padding: var(--pf-v5-global--spacer--sm) var(--pf-v5-global--spacer--md);
+  color: var(--pf-v5-global--Color--light-100);
+}
+
+.odc-multi-stream-logs__taskName__loading-indicator {
+  margin-left: var(--pf-v5-global--spacer--sm);
+}
+
+
+.odc-task-run-log {
+  display: flex;
+  flex: 1;
+  padding: var(--pf-v5-global--spacer--xl);
+}
+
+
+.odc-form-section__heading {
+  margin: 0;
+}
+
+.odc-form-section--extra-margin {
+  margin: var(--pf-v5-global--spacer--md) 0;
+}
+
+
+.odc-git-type-selector {
+  --pf-v5-c-tile--TranslateY: 0 !important;
+  --pf-v5-c-tile--PaddingBottom: var(--pf-v5-global--spacer--sm);
+  --pf-v5-c-tile--PaddingTop: var(--pf-v5-global--spacer--sm);
+  --pf-v5-c-tile--PaddingRight: var(--pf-v5-global--spacer--md);
+  --pf-v5-c-tile--PaddingLeft: var(--pf-v5-global--spacer--md);
+}
+
+
+
+/*# sourceMappingURL=pages.e7ea84c8980727a2ee52.css.map*/

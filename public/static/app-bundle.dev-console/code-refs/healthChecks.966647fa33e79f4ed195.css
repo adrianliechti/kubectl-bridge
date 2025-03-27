@@ -1,0 +1,41 @@
+.odc-form-section__heading {
+  margin: 0;
+}
+
+.odc-form-section--extra-margin {
+  margin: var(--pf-v5-global--spacer--md) 0;
+}
+
+
+.odc-heath-check-probe-form {
+  border: 1px dashed var(--pf-v5-global--BorderColor--100);
+  padding: var(--pf-v5-global--spacer--md);
+}
+
+
+.odc-heath-check-probe__formTitle {
+  margin: 0;
+  font-weight: var(--pf-v5-global--FontWeight--bold);
+}
+
+.odc-heath-check-probe__successText {
+  color: var(--pf-v5-global--palette--green-500);
+  font-weight: var(--pf-v5-global--FontWeight--bold);
+}
+
+.odc-heath-check-probe__successButton {
+  padding: 0;
+}
+
+
+.odc-add-health-checks__body {
+  padding: 0 var(--pf-v5-global--spacer--lg) var(--pf-v5-global--spacer--lg);
+}
+
+.odc-add-health-checks__paragraph {
+  margin-bottom: var(--pf-v5-c-content--MarginBottom);
+}
+
+
+
+/*# sourceMappingURL=healthChecks.966647fa33e79f4ed195.css.map*/

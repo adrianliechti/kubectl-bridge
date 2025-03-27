@@ -1,0 +1,202 @@
+.gop-gitops-details-page-heading {
+  border-bottom: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--BorderColor--100);
+}
+
+.gop-gitops-details-page-heading__repo {
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.gop-gitops-details-page-heading h1 {
+  margin-bottom: var(--pf-v5-global--spacer--sm);
+}
+
+.gop-gitops-details-page-heading .gop-gitops-details-page-title {
+  margin-bottom: var(--pf-v5-global--spacer--xl);
+}
+
+
+.gop-gitops-resources__title {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+.gop-gitops-resources__list {
+  display: flex;
+  max-width: 203px;
+}
+
+.gop-gitops-resources .pf-v5-l-split.pf-m-gutter {
+  justify-content: space-between;
+}
+
+.gop-gitops-resources .pf-v5-l-split.pf-m-gutter>*:not(:last-child) {
+  margin-right: var(--pf-v5-global--spacer--sm);
+}
+
+
+.gop-gitops-details {
+  padding: var(--pf-v5-global--spacer--xl);
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gop-gitops-details__env-section {
+  display: inline-table;
+  margin-right: 35px;
+  min-height: 578px;
+  max-height: 578px;
+}
+
+.gop-gitops-details__env-section__header {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.gop-gitops-details__env-section__app-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: var(--pf-v5-global--spacer--xs) 0px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.gop-gitops-details__env-section__status-label {
+  margin: var(--pf-v5-global--spacer--xs) 0px;
+  outline: none;
+}
+
+.gop-gitops-details__env-section__envname-and-status {
+  display: flex;
+}
+
+.gop-gitops-details__env-section__env .pf-v5-c-label__text {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+}
+
+.gop-gitops-details__env-section__time {
+  margin: var(--pf-v5-global--spacer--xs) 0px var(--pf-v5-global--spacer--xs) 0px;
+  display: flex;
+}
+
+.gop-gitops-details__env-section__time .co-icon-and-text__icon {
+  display: none;
+}
+
+.gop-gitops-details__env-section__time-unavailable {
+  margin: var(--pf-v5-global--spacer--xs) 0px var(--pf-v5-global--spacer--xs) 0px;
+  display: flex;
+  font-style: italic;
+}
+
+.gop-gitops-details__env-section__time-unavailable .co-icon-and-text__icon {
+  display: none;
+}
+
+.gop-gitops-details__env-section__deployment-history {
+  margin-top: var(--pf-v5-global--spacer--xs);
+  justify-content: space-between;
+}
+
+.gop-gitops-details__env-section__argo-external-link {
+  vertical-align: middle;
+}
+
+.gop-gitops-details__env-section__cluster-url {
+  display: inline-flex;
+  align-items: center;
+}
+
+.gop-gitops-details__env-section__cluster-url-empty-state {
+  font-size: 12px;
+  color: var(--pf-v5-global--palette--black-600);
+}
+
+.gop-gitops-details__env-section article {
+  border: var(--pf-v5-global--BorderWidth--sm) solid var(--pf-v5-global--BorderColor--100);
+  min-width: 335px;
+  max-width: 335px;
+}
+
+.gop-gitops-details__env-section a {
+  font-size: 12px;
+}
+
+.gop-gitops-details__author-sha {
+  align-items: center;
+  color: var(--pf-v5-global--Color--200);
+  display: flex;
+  margin-bottom: var(--pf-v5-global--spacer--xs);
+}
+
+.gop-gitops-details__message {
+  margin-bottom: var(--pf-v5-global--spacer--xs);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gop-gitops-details__warning-message {
+  margin-bottom: var(--pf-v5-global--spacer--xs);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.gop-gitops-details__author {
+  margin-right: var(--pf-v5-global--spacer--sm);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gop-gitops-details__author-unavailable {
+  margin-right: var(--pf-v5-global--spacer--sm);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.gop-gitops-details__sha {
+  background-color: inherit;
+  color: var(--pf-v5-global--link--Color);
+  font-size: 12px;
+  width: auto;
+}
+
+.gop-gitops-details__sha svg {
+  vertical-align: middle;
+}
+
+.gop-gitops-details__special-message-alert {
+  margin-bottom: var(--pf-v5-global--spacer--xl);
+}
+
+
+.gop-gitops-empty-state__icon {
+  height: var(--pf-v5-c-empty-state__icon--FontSize);
+  max-width: 100%;
+}
+
+
+.odc-gitops-history-list {
+  padding: var(--pf-v5-global--spacer--lg);
+  flex: 1;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.gitops-plugin-details-page.fc39d3c9893e80e893be.css.map*/

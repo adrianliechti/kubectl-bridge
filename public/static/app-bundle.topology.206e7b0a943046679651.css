@@ -1,0 +1,26 @@
+.odc-decorator {
+  color: var(--pf-v5-global--Color--200);
+  transition: color .2s ease;
+  outline: none;
+}
+
+.odc-decorator__link:hover {
+  text-decoration: none;
+}
+
+.odc-decorator__link:hover .odc-m-drag-active {
+  pointer-events: none;
+}
+
+.odc-decorator__bg {
+  fill: var(--pf-v5-global--BackgroundColor--light-100);
+}
+
+.odc-decorator:hover,
+.odc-decorator:active {
+  color: var(--pf-v5-global--link--Color--hover);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.topology.206e7b0a943046679651.css.map*/

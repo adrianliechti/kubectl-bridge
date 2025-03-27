@@ -1,0 +1,16 @@
+.co-storage__selection {
+  margin-bottom: var(--pf-v5-global--spacer--lg);
+}
+
+.co-storage-heading__wrapper {
+  display: flex;
+}
+
+.co-storage-heading__subtitle {
+  padding-left: var(--pf-v5-global--spacer--xs);
+  margin-top: var(--pf-v5-global--spacer--xs);
+}
+
+
+
+/*# sourceMappingURL=app-bundle.attach-storage.546546c96c4a9d3553f7.css.map*/

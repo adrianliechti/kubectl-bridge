@@ -1,0 +1,18 @@
+.plugin-vsphere-form-helper__datacenter {
+  color: blue;
+}
+
+
+.plugin-vsphere-modal>footer {
+  justify-content: flex-end;
+}
+
+
+.plugin-vsphere-status-popup {
+  max-width: 30rem !important;
+  width: 30rem;
+}
+
+
+
+/*# sourceMappingURL=vsphereStatus.801c470a27013c9029e6.css.map*/

@@ -1,0 +1,16 @@
+.odc-form-section__heading {
+  margin: 0;
+}
+
+.odc-form-section--extra-margin {
+  margin: var(--pf-v5-global--spacer--md) 0;
+}
+
+
+.max-height-menu {
+  max-height: 30vh;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.sink-source.4059e77018eafee555ce.css.map*/

@@ -1,0 +1,15 @@
+.pf-v5-l-level {
+  --pf-v5-l-level--m-gutter--Gap: var(--pf-v5-global--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pf-v5-l-level.pf-m-gutter {
+  gap: var(--pf-v5-l-level--m-gutter--Gap);
+}
+
+
+
+/*# sourceMappingURL=pipelinesComponent.006d743054c8d99021ce.css.map*/

@@ -1,0 +1,58 @@
+.co-dynamic-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.co-dynamic-form__accordion {
+  --pf-v5-c-accordion--BoxShadow: none !important;
+  --pf-v5-c-accordion--PaddingBottom: 0rem !important;
+  --pf-v5-c-accordion--PaddingTop: 0rem !important;
+}
+
+.co-dynamic-form__accordion .pf-v5-c-accordion__toggle label {
+  margin-bottom: 0;
+}
+
+.co-dynamic-form__field-group {
+  --pf-v5-c-accordion__toggle--PaddingLeft: 0rem !important;
+  --pf-v5-c-accordion__toggle--PaddingRight: 0.9375rem !important;
+  --pf-v5-c-accordion__toggle--m-expanded--BorderLeftColor: none !important;
+  --pf-v5-c-accordion__expanded-content-body--PaddingLeft: 0.9375rem !important;
+  --pf-v5-c-accordion__expanded-content--Color: var(--pf-v5-global--Color--100) !important;
+  --pf-v5-c-accordion__toggle-text--active--Color: var(--pf-v5-global--Color--100) !important;
+  --pf-v5-c-accordion__toggle-text--active--FontWeight: 600 !important;
+  --pf-v5-c-accordion__toggle-text--expanded--Color: var(--pf-v5-global--Color--100) !important;
+  --pf-v5-c-accordion__toggle-text--expanded--FontWeight: 600 !important;
+  --pf-v5-c-accordion__toggle-text--focus--Color: var(--pf-v5-global--Color--100) !important;
+  --pf-v5-c-accordion__toggle-text--focus--FontWeight: 600 !important;
+  --pf-v5-c-accordion__toggle-text--hover--Color: var(--pf-v5-global--Color--100) !important;
+  --pf-v5-c-accordion__toggle-text--hover--FontWeight: 600 !important;
+  margin-bottom: .5rem;
+}
+
+.co-dynamic-form__field-group .pf-v5-c-accordion__toggle:before,
+.co-dynamic-form__field-group .pf-v5-c-accordion__toggle:after {
+  display: none;
+}
+
+.co-dynamic-form__field-group h3 {
+  margin: 0rem;
+  font-size: var(--pf-v5-global--FontSize);
+}
+
+.co-dynamic-form__field-group .help-block {
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.co-dynamic-form__array-field-group-remove {
+  display: flex;
+}
+
+.co-dynamic-form__array-field-group-remove button {
+  margin-left: auto !important;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.364.51ce148b9c393a28c83d.css.map*/

@@ -1,0 +1,20 @@
+.odc-revision-deployment-list {
+  padding: var(--pf-v5-global--spacer--md) var(--pf-v5-global--spacer--lg) var(--pf-v5-global--spacer--sm);
+}
+
+.odc-revision-deployment-list__pod {
+  width: var(--pf-v5-global--icon--FontSize--lg);
+  cursor: default;
+}
+
+
+.revision-overview-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.knative-overview.bac0788491e47faff2d6.css.map*/

@@ -1,0 +1,39 @@
+:root {
+  --pf-v5-global--FontSize--md: 14px;
+  --pf-global--FontSize--md: 14px;
+  --pf-v5-global--FontSize--sm: 13px;
+  --pf-global--FontSize--sm: 13px;
+}
+
+.ocs-yaml-editor-shortcut__text {
+  color: var(--pf-v5-global--Color--200);
+  margin-left: var(--pf-v5-global--spacer--sm);
+}
+
+.ocs-yaml-editor-toolbar {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .ocs-yaml-editor-toolbar__link {
+    display: none;
+  }
+}
+
+
+.ocs-yaml-editor__root {
+  flex: 1;
+  position: relative;
+}
+
+.ocs-yaml-editor__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.71.1fbf184b768a3ddc7eee.css.map*/

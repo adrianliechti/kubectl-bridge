@@ -1,0 +1,43 @@
+.co-popover-status-button {
+  display: inline-flex !important;
+  flex-direction: column !important;
+}
+
+
+.dps-icons__green-check-icon {
+  fill: var(--pf-v5-global--palette--green-500) !important;
+}
+
+.dps-icons__red-exclamation-icon {
+  fill: var(--pf-v5-global--danger-color--100) !important;
+}
+
+.dps-icons__yellow-exclamation-icon {
+  fill: var(--pf-v5-global--warning-color--100) !important;
+}
+
+.dps-icons__blue-info-icon {
+  fill: var(--pf-v5-global--palette--blue-300) !important;
+}
+
+
+.dps-resource-item__resource-status {
+  padding-left: var(--pf-v5-global--spacer--sm);
+  white-space: nowrap;
+}
+
+.dps-resource-item__resource-status-badge {
+  vertical-align: middle;
+}
+
+.dps-resource-item__resource-status-badge--alt {
+  vertical-align: baseline;
+}
+
+.dps-resource-item__resource-status-badge .dps-icon-and-text__icon {
+  top: 2px;
+}
+
+
+
+/*# sourceMappingURL=actions.a67249bd6dd0ba4e5684.css.map*/

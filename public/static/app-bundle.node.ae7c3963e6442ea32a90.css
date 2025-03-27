@@ -1,0 +1,107 @@
+.skeleton-chart {
+  height: inherit;
+  position: relative;
+  width: 100%;
+}
+
+.skeleton-chart::after {
+  background-image: url(./assets/packages/console-shared/src/images/skeleton-chart.svg);
+  background-position: 0px bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.pf-v5-theme-dark .skeleton-chart::after {
+  opacity: .2;
+}
+
+.skeleton-text {
+  animation: loading-skeleton 1s ease-out .15s infinite alternate;
+  background: var(--co-skeleton--Color);
+  height: 24px;
+  opacity: 0;
+}
+
+.skeleton-text::after {
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.co-utilization-card-popover__body {
+  min-height: var(--pf-v5-global--spacer--lg);
+}
+
+.co-utilization-card-popover__consumer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.co-utilization-card-popover__consumer-name {
+  flex: 0 0 calc(70% - var(--pf-v5-global--spacer--md));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.co-utilization-card-popover__consumer-value {
+  color: var(--pf-v5-global--Color--200);
+  flex: 0 0 30%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.co-utilization-card-popover__description {
+  padding: var(--pf-v5-global--spacer--sm) 0;
+}
+
+.co-utilization-card-popover__dropdown {
+  margin: var(--pf-v5-global--spacer--sm) 0;
+}
+
+.co-utilization-card-popover__dropdown,
+.co-utilization-card-popover__dropdown>div,
+.co-utilization-card-popover__dropdown .pf-v5-c-dropdown__toggle {
+  width: 100%;
+}
+
+.co-utilization-card-popover__limit-icon {
+  margin-left: var(--pf-v5-global--spacer--sm);
+}
+
+.co-utilization-card-popover__consumer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.co-utilization-card-popover__title {
+  font-weight: var(--pf-v5-global--FontWeight--bold);
+}
+
+.skeleton-consumer {
+  animation: loading-skeleton 1s ease-out .15s infinite alternate;
+  background: var(--co-skeleton--Color);
+  height: var(--pf-v5-global--spacer--md);
+  opacity: 0;
+  margin-top: var(--pf-v5-global--spacer--sm);
+  margin-bottom: var(--pf-v5-global--spacer--sm);
+}
+
+.skeleton-consumer::after {
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*# sourceMappingURL=app-bundle.node.ae7c3963e6442ea32a90.css.map*/
