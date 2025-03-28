@@ -1,16 +1,10 @@
 package main
 
 import (
-	"embed"
 	"os"
-	"path/filepath"
 
+	"github.com/adrianliechti/kubectl-bridge/pkg/public"
 	"github.com/adrianliechti/kubectl-bridge/pkg/server"
-)
-
-var (
-	//go:embed public
-	public embed.FS
 )
 
 func main() {
@@ -22,11 +16,11 @@ func main() {
 
 	defer os.RemoveAll(dir)
 
-	if err := os.CopyFS(dir, public); err != nil {
+	if err := public.CopyFS(dir); err != nil {
 		panic(err)
 	}
 
-	if err := os.Chdir(filepath.Join(dir, "public")); err != nil {
+	if err := os.Chdir(dir); err != nil {
 		panic(err)
 	}
 

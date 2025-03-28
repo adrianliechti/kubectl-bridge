@@ -12,7 +12,6 @@ require (
 	github.com/openshift/library-go v0.0.0-20231020125034-5a2d9fe760b3
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
 	k8s.io/client-go v0.32.2
-	k8s.io/klog/v2 v2.130.1
 )
 
 require (
@@ -141,7 +140,6 @@ require (
 	github.com/opdev/getocprange v0.0.0-20230929103806-05c46c06dbbe // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
-	github.com/openshift/client-go v0.0.0-20230926161409-848405da69e1 // indirect
 	github.com/operator-framework/api v0.17.3 // indirect
 	github.com/operator-framework/kubectl-operator v0.4.1-0.20230203190200-07b1999a3d68 // indirect
 	github.com/operator-framework/operator-controller v0.0.0-20230203004137-2d8dea88dad1 // indirect
@@ -175,7 +173,6 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.18.2 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
-	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
@@ -187,7 +184,6 @@ require (
 	go.opentelemetry.io/otel v1.28.0 // indirect
 	go.opentelemetry.io/otel/metric v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
-	go.starlark.net v0.0.0-20230525235612-a134d8f9ddca // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/crypto v0.33.0 // indirect
@@ -221,6 +217,7 @@ require (
 	k8s.io/component-base v0.32.2 // indirect
 	k8s.io/helm v2.17.0+incompatible // indirect
 	k8s.io/klog v1.0.0 // indirect
+	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
 	k8s.io/kubectl v0.32.2 // indirect
 	k8s.io/pod-security-admission v0.31.1 // indirect
